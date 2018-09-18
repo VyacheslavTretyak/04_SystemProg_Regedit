@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AutoRun
 {
-	public partial class Form1 : Form
+	public partial class AutoRun : Form
 	{
-		public Form1()
+		public AutoRun()
 		{
 			InitializeComponent();
 		}
