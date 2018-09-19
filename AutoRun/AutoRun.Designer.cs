@@ -31,6 +31,7 @@
 			this.listBoxProg = new System.Windows.Forms.ListBox();
 			this.btnAdd = new System.Windows.Forms.Button();
 			this.btnRemove = new System.Windows.Forms.Button();
+			this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
 			this.SuspendLayout();
 			// 
 			// listBoxProg
@@ -59,6 +60,10 @@
 			this.btnRemove.Text = "Remove Prog";
 			this.btnRemove.UseVisualStyleBackColor = true;
 			// 
+			// openFileDialog
+			// 
+			this.openFileDialog.FileName = "openFileDialog";
+			// 
 			// AutoRun
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,6 +83,7 @@
 		private System.Windows.Forms.ListBox listBoxProg;
 		private System.Windows.Forms.Button btnAdd;
 		private System.Windows.Forms.Button btnRemove;
+		private System.Windows.Forms.OpenFileDialog openFileDialog;
 	}
 }
 
