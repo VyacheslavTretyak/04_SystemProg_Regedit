@@ -26,6 +26,7 @@ namespace AutoRun
 
 		private void BtnRemove_Click(object sender, EventArgs e)
 		{
+
 			RegistryKey curUser = Registry.CurrentUser;
 			RegistryKey key = curUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Run", true);
 			key.DeleteValue(listBoxProg.SelectedItem.ToString());
